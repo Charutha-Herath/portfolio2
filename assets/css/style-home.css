@@ -54,7 +54,7 @@
     border-radius: 100%;
 
 }
-.Main-div .container-12 {
+.Main-div .content {
     margin: 0 58px 13px 44px;
     display: flex;
     flex-direction: row;
@@ -62,7 +62,7 @@
     box-sizing: border-box;
 }
 
-.Main-div .icons-8-home-481 {
+.Main-div .icon-home {
     background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
     margin: 0 11.7px 0 13.7px;
     width: 48px;
@@ -79,7 +79,7 @@
     cursor: pointer; !* Set cursor to pointer on hover *!*/
 }
 
-.Main-div .icons-8-about-481 {
+.Main-div .icon-about {
     background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
     margin: 0 11.7px 1px 13.7px;
     width: 48px;
@@ -87,14 +87,14 @@
     cursor: pointer;
 }
 
-.Main-div .icons-8-project-481 {
+.Main-div .icon-project {
     background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
     margin: 0 11.7px 4px 13.7px;
     width: 48px;
     height: 48px;
     cursor: pointer;
 }
-.Main-div .icons-8-blog-481 {
+.Main-div .icon-blog {
     background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
     margin: 0 11.7px 4px 13.7px;
     width: 48px;
@@ -102,14 +102,14 @@
     cursor: pointer;
 }
 
-.Main-div .icons-8-clipboard-481 {
+.Main-div .icon-clipboard {
     background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
     margin: 0 11.7px 4px 13.7px;
     width: 48px;
     height: 48px;
     cursor: pointer;
 }
-.Main-div .icons-8-call-4811 {
+.Main-div .icon-contact {
     background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
     margin: 0 13.7px 4px 11.7px;
     width: 48px;
