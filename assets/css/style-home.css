@@ -11,6 +11,7 @@
 
 .Main-div .nav-bar {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 72vh;
     border-radius: 20px;
     border: 1px solid #1E1E1E;
     background: #00386C;
@@ -25,6 +26,26 @@
 
 .para{
 
+}
+
+#hi-iam{
+    color: white;
+    font-size: 75px;
+    margin-bottom: 0;
+
+}
+
+#span-name{
+    color: #3D80CF;
+
+}
+#span-name-2{
+    display: none;
+}
+
+#fullstack{
+    color: white;
+    font-size: 40px;
 }
 
 #btn-hire{
@@ -44,11 +65,11 @@
 }
 
 #img-me{
-    width: 350px;
+    width: 420px;
     aspect-ratio: 1/1;
     position: absolute;
-    top: 20%;
-    right: 15%;
+    top: 12%;
+    right: 10%;
 
     border: 4px solid #3D80CF;
     border-radius: 100%;
@@ -61,6 +82,8 @@
     width: fit-content;
     box-sizing: border-box;
 }
+
+
 
 .Main-div .icon-home {
     background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
@@ -115,6 +138,7 @@
     width: 48px;
     height: 48px;
     cursor: pointer;
+
 }
 
 .Main-div .home {
@@ -155,7 +179,7 @@
     color: #FFFFFF;
 }
 .Main-div .assignment {
-    margin: 0 0 12px 2.5px;
+    margin: 0 0 20px 2.5px;
     display: inline-block;
     overflow-wrap: break-word;
     font-family: 'Inter';
@@ -164,7 +188,7 @@
     color: #FFFFFF;
 }
 .Main-div .contact {
-    margin: 0 11.8px;
+    margin: 0 0 20px 2.5px;
     align-self: flex-end;
     overflow-wrap: break-word;
     font-family: 'Inter';
@@ -172,3 +196,248 @@
     font-size: 12px;
     color: #FFFFFF;
 }
+
+@media screen and  (max-width: 1024px){
+    #img-me{
+        width: 320px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+
+        border: 4px solid #3D80CF;
+        border-radius: 100%;
+    }
+    #span-name-2{
+        display: none;
+    }
+    #span-name{
+
+        /*font-size: 45px;*/
+    }
+
+    #hi-iam{
+        font-size: 45px;
+    }
+
+    #fullstack{
+        color: white;
+        font-size: 30px;
+    }
+
+    .Main-div .nav-bar {
+        /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        border: 1px solid #1E1E1E;
+        background: #00386C;
+        position: relative;
+        margin-right: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 4px 12px 4px;
+        box-sizing: border-box;*/
+
+        /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        border: 1px solid #1E1E1E;
+        background: #00386C;
+        position: relative;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6px 3px 10px 3px;
+        box-sizing: border-box;*/
+
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        height: 70vh;
+        border: 1px solid #1E1E1E;
+        background: #00386C;
+        position: relative;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px 2px 8px 2px;
+        box-sizing: border-box;
+
+    }
+
+
+
+    .Main-div .icon-home {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+
+    }
+
+    .Main-div .icon-about {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .Main-div .icon-project {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .Main-div .icon-blog {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+
+    .Main-div .icon-assignment {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .Main-div .icon-contact {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+
+    }
+}
+
+@media (max-width: 1212px){
+    #img-me{
+        width: 320px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+
+        border: 4px solid #3D80CF;
+        border-radius: 100%;
+    }
+}
+
+/*@media screen and (max-width: 1374px){
+    #span-name{
+        display: none;
+        color: #3D80CF;
+    }
+
+    #span-name-2{
+        display: flex;
+        color: #3D80CF;
+    }
+
+    #hi-iam{
+        color: white;
+        font-size: 75px;
+        margin-bottom: 0;
+    }
+
+ !*   .Main-div .nav-bar {
+        !*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        border: 1px solid #1E1E1E;
+        background: #00386C;
+        position: relative;
+        margin-right: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 4px 12px 4px;
+        box-sizing: border-box;*!
+
+        !*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        border: 1px solid #1E1E1E;
+        background: #00386C;
+        position: relative;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6px 3px 10px 3px;
+        box-sizing: border-box;*!
+
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        border: 1px solid #1E1E1E;
+        background: #00386C;
+        position: relative;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px 2px 8px 2px;
+        box-sizing: border-box;
+
+    }
+
+
+
+    .Main-div .icon-home {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+
+    }
+
+    .Main-div .icon-about {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .Main-div .icon-project {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .Main-div .icon-blog {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+
+    .Main-div .icon-assignment {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .Main-div .icon-contact {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+
+        margin: 0 2px 1px 2px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+
+    }*!
+}*/
