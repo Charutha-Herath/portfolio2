@@ -11,7 +11,7 @@
 
 .Main-div .nav-bar {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    height: 85%;
+    height: 90%;
 
     border-radius: 20px;
     border: 1px solid #1E1E1E;
@@ -96,6 +96,12 @@
     border: 4px solid #3D80CF;
     border-radius: 100%;
 
+}
+#img-me-mobile{
+    display: none;
+}
+#mobile-menu{
+    display: none;
 }
 .Main-div .content {
     margin: 0 58px 13px 44px;
@@ -472,5 +478,182 @@
         cursor: pointer;
 
     }
+
+
+
+}
+
+@media screen and (max-width: 425px){
+
+    .Main-div .nav-bar {
+        display: none;
+
+    }
+
+    #img-me{
+        display: none;
+    }
+
+    #img-me-mobile{
+        display: block;
+
+        width: 180px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+        border: 4px solid #3D80CF;
+        border-radius: 100%;
+    }
+
+    .para{
+        position: absolute;
+        top: 200px;
+        left: 18%;
+
+
+    }
+
+    #hi-iam{
+        top: 100px;
+        font-size: 50px;
+    }
+
+    #fullstack{
+        color: white;
+        font-size: 25px;
+
+        margin-left: 1px;
+    }
+
+    #btn-hire{
+        width: 60px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #3D80CF;
+        cursor: pointer;
+
+        margin-left: 40px;
+    }
+
+    #btn-resume{
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #3D80CF;
+        cursor: pointer;
+    }
+    #div-icons-3{
+        margin-top: 10px;
+        left: 52px;
+        position: absolute;
+    }
+
+    #icon-git{
+        width: 30px;
+        aspect-ratio: 1/1;
+        cursor: pointer
+    }
+
+    #icon-fb{
+        width: 30px;
+        aspect-ratio: 1/1;
+        cursor: pointer
+
+    }
+
+    #icon-linkedIn{
+        width: 30px;
+        aspect-ratio: 1/1;
+        cursor: pointer
+    }
+
+    #mobile-menu{
+        /*border: 0.1rem solid #000000;
+        background: #00386C;
+        position: relative;
+        margin-bottom: 2.2rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0.7rem 0.7rem 0.2rem 0.9rem;
+        width: 22.6rem;
+        box-sizing: border-box;*/
+
+
+
+            /*border: 1px solid #000000;
+            background: #00386C;
+            position: relative;
+    ;
+            display: block;
+
+            padding: 11px 11.1px 3px 15px;
+
+            box-sizing: border-box;*/
+
+
+        display: block;
+        background-color: #333;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+    }
+
+
+
+    #top-nav{
+        display: flex;
+        flex-direction: row;
+        padding: 11px 11.1px 3px 15px;
+    }
+
+    #nav-bar-mobile>.top-nav{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    /*.topnav {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    !* Style the links inside the navigation bar *!
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    !* Change the color of links on hover *!
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    !* Add an active class to highlight the current page *!
+    .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    !* Style the icons with a specific class *!
+    .icon {
+        width: 30px;
+        height: 30px;
+        background-size: cover;
+    }*/
+
+
 
 }
