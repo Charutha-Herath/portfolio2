@@ -11,7 +11,7 @@
 
 .Main-div .nav-bar {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    height: 90%;
+    height: 95%;
 
     border-radius: 20px;
     border: 1px solid #1E1E1E;
@@ -31,6 +31,7 @@
 }
 
 #hi-iam{
+    margin-top: 10px;
     color: white;
     font-size: 75px;
     margin-bottom: 0;
@@ -517,6 +518,40 @@
 
     }
 
+    #mobile-menu{
+        #mobile-contact{
+
+        }
+
+
+        /*border: 0.1rem solid #000000;
+        background: #00386C;
+        position: relative;
+        margin-bottom: 2.2rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0.7rem 0.7rem 0.2rem 0.9rem;
+        width: 22.6rem;
+        box-sizing: border-box;*/
+        /*border: 1px solid #000000;
+        background: #00386C;
+        position: relative;
+;
+        display: block;
+
+        padding: 11px 11.1px 3px 15px;
+
+        box-sizing: border-box;*/
+
+
+        display: block;
+        background-color: #333;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
     #hi-iam{
         top: 100px;
         font-size: 50px;
@@ -538,7 +573,6 @@
 
         margin-left: 40px;
     }
-
     #btn-resume{
         width: 70px;
         height: 30px;
@@ -546,6 +580,7 @@
         background-color: #3D80CF;
         cursor: pointer;
     }
+
     #div-icons-3{
         margin-top: 10px;
         left: 52px;
@@ -571,45 +606,27 @@
         cursor: pointer
     }
 
-    #mobile-menu{
-        /*border: 0.1rem solid #000000;
-        background: #00386C;
-        position: relative;
-        margin-bottom: 2.2rem;
-        display: flex;
-        flex-direction: column;
-        padding: 0.7rem 0.7rem 0.2rem 0.9rem;
-        width: 22.6rem;
-        box-sizing: border-box;*/
 
 
-
-            /*border: 1px solid #000000;
-            background: #00386C;
-            position: relative;
-    ;
-            display: block;
-
-            padding: 11px 11.1px 3px 15px;
-
-            box-sizing: border-box;*/
-
-
-        display: block;
-        background-color: #333;
-        overflow: hidden;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-
-    }
 
 
 
     #top-nav{
         display: flex;
         flex-direction: row;
-        padding: 11px 11.1px 3px 15px;
+        padding: 11px 11.1px 3px 3px;
+        background-color: #00386C;
+        border-radius: 20px;
+        margin-right: 2px;
+        right: 2px;
+        width: 100vw;
+        height: 10vh;
+
+
+    }
+
+    #top-nav>div{
+        margin-left: 15px;
     }
 
     #nav-bar-mobile>.top-nav{
@@ -618,6 +635,67 @@
         flex-direction: row;
 
     }
+
+    #mobile-home{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-about{
+        margin: 0 0 25px 3.7px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-project{
+        margin: 0 0 27px 3.7px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-blog{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-assignment{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-contact{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
 
     /*.topnav {
         background-color: #333;
