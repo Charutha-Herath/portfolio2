@@ -319,6 +319,7 @@
     }
 }
 
+
 @media screen and (max-width: 768px) {
 
     .Main-div {
@@ -328,7 +329,7 @@
         align-items: flex-start;
         padding-top: 83px;
         width: 100vw;
-        height: 1500px;
+        height: 1200px;
         box-sizing: border-box;
     }
 
@@ -957,11 +958,13 @@
 /*------------------------------------------------- Sec-education and skill ----------------------------------------------------------------------*/
 
 #sec-edu-skill {
-    padding: 1em;
+    padding-right: 0;
+
     font-family: Arial, sans serif;
     font-size: 16px;
+
     /*max-width: 1200px;*/
-    width: 100%;
+
     height: 850px;
     margin: 0;
     background-color: #050832;
@@ -1080,9 +1083,332 @@ li.timeline-item .location {
 
 
 @media screen and (max-width: 700px) {
-    #sec-edu-skill {
+    /*#sec-edu-skill {
         background-image: radial-gradient(circle at left top, white 0%, white 20%, transparent 70%), radial-gradient(circle at right, white 0%, white 5%, transparent 45%), linear-gradient(180deg, #d1d9e2, #a7b3bf);
         background-size: 25em 25em, 30em 30em, 100% 100%;
         background-position: 0 0, 100% 65%, 0 0;
+    }*/
+}
+
+
+@media screen and (max-width: 768px) {
+    #sec-edu-skill{
+        padding-right: 0;
+    }
+    .timeline-education{
+        position: absolute;
+        top: 1250px;
+        left: 20vw;
+    }
+    .timeline-experience{
+        position: absolute;
+        top: 1900px;
+        left: 20vw;
+
     }
 }
+
+/*--------------------------------------------My-skills-tools--------------------------------------------------*/
+
+
+.sec-skills{
+    padding-top: 25px;
+    background-color: #020423;
+    width: 100%;
+    height: 1800%;
+
+}
+
+.container>div>img{
+    width: 55px;
+    aspect-ratio: 1/1
+}
+.my-skills {
+    margin: 0 0 86px 43px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    left: 38vw;
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.web-development {
+    margin: 0 0 43px 21px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    left: 35vw;
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.div-database{
+    margin: 0 0 43px 21px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    left: 42vw;
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+.container-database{
+    margin: 0 0 80px 2px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    left: 48vw;
+    width: 100px;
+    position: relative;
+    box-sizing: border-box;
+}
+.container-database>div>img{
+    width: 65px;
+    aspect-ratio: 1/1
+}
+
+
+.container {
+    margin: 0 0 80px 2px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    left: 32.5vw;
+    width: 490px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.container-programming>div>img{
+    left: 40vw;
+    width: 55px;
+    aspect-ratio: 1/1
+}
+.container-programming {
+    margin: 0 0 80px 2px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    left: 39.5vw;
+    width: 350px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.tools{
+    margin: 0 0 43px 21px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    left: 45vw;
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.container-tools{
+    margin: 0 0 80px 2px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    left: 33vw;
+    width: 500px;
+    margin-bottom: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.container-tools>div>img{
+    left: 40vw;
+    width: 55px;
+    aspect-ratio: 1/1
+}
+.icons-8-html-1441 {
+
+    margin-top: 6px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-8-css-1441 {
+
+    margin-top: 6px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-8-bootstrap-1441 {
+
+    margin-bottom: 6px;
+    width: 100px;
+    height: 100px;
+}
+
+.icons-8-react-ajavascript-library-for-building-user-interfaces-961 {
+
+    margin: 6px 0 9.6px 0;
+    width: 100px;
+    height: 90.4px;
+}
+
+.icons-8-spring-boot-1441 {
+
+    margin-top: 6px;
+    width: 100px;
+    height: 100px;
+}
+
+.programming-languages {
+    margin: 0 0 46px 21px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    left: 32vw;
+    width: 490px;
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .container>div>img{
+        width: 50px;
+        aspect-ratio: 1/1
+    }
+
+    .container-programming>div>img{
+        left: 40vw;
+        width: 50px;
+        aspect-ratio: 1/1
+    }
+    .container-database>div>img{
+        width: 60px;
+        aspect-ratio: 1/1
+    }
+
+    .container-tools>div>img{
+        left: 40vw;
+        width: 50px;
+        aspect-ratio: 1/1
+    }
+
+    .programming-languages {
+        margin: 0 0 46px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 23vw;
+        width: 490px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 38px;
+        color: #FFFFFF;
+    }
+
+    .my-skills {
+        margin: 0 0 86px 43px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 36vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 42px;
+        color: #FFFFFF;
+    }
+    .web-development {
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 29vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 38px;
+        color: #FFFFFF;
+    }
+
+    .div-database{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 38vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 38px;
+        color: #FFFFFF;
+
+    }
+    .tools{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 42.5vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 38px;
+        color: #FFFFFF;
+    }
+
+    .container-database{
+        margin: 0 0 80px 2px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 2vw;
+        left: 47vw;
+        width: 100px;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+
+
+    .container {
+        margin: 0 0 80px 2px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 2vw;
+        left: 25vw;
+        width: 490px;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .container-programming {
+        margin: 0 0 80px 2px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 2vw;
+        left: 37vw;
+        width: 350px;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    .container-tools{
+        margin: 0 0 80px 2px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 2vw;
+        left: 23vw;
+        width: 500px;
+        margin-bottom: 0;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
