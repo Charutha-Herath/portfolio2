@@ -549,9 +549,10 @@
         padding: 11px 11.1px 3px 15px;
 
         box-sizing: border-box;*/
-
+        z-index: 999;
 
         display: block;
+
         background-color: #333;
         overflow: hidden;
         position: fixed;
