@@ -1184,7 +1184,7 @@ li.timeline-item .location {
     padding-top: 25px;
     background-color: #020423;
     width: 100vw;
-    height: 1800%;
+    height: 2000%;
 
 }
 
@@ -1477,6 +1477,175 @@ li.timeline-item .location {
         box-sizing: border-box;
     }
 
+
+}
+
+@media screen and (max-width: 650px) {
+    .my-skills {
+        margin: 0 0 86px 43px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 38vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 34px;
+        color: #FFFFFF;
+    }
+
+    .web-development {
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 32vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    .programming-languages {
+        margin: 0 0 46px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 25vw;
+        width: 490px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    .div-database{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 41.5vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+
+    }
+
+    .tools{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 45.5vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+    .container{
+        left: 28.5vw;
+    }
+
+    .container-programming{
+        left: 40.5vw;
+    }
+    .container-database{
+        left: 51vw;
+    }
+
+
+    .container>div>img,.container-programming>div>img,.container-tools>div>img {
+        width: 40px;
+        aspect-ratio: 1/1
+    }
+
+    .container-database>div>img{
+        width: 50px;
+        aspect-ratio: 1/1
+    }
+
+
+    .icons-8-html-1441,.icons-8-css-1441,.icons-8-bootstrap-1441,.icons-8-react-ajavascript-library-for-building-user-interfaces-961,.icons-8-spring-boot-1441  {
+
+        margin-top: 6px;
+        width: 65px;
+        height: 75px;
+    }
+
+    .my-skills,.container,.container-database,.container-programming,.container-programming{
+        margin-bottom: 50px;
+    }
+
+    .container-tools{
+        left: 28vw;
+    }
+
+}
+
+@media screen and (max-width: 540px){
+    .my-skills {
+        margin: 0 0 86px 43px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 38vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 28px;
+        color: #FFFFFF;
+
+        margin-bottom: 50px;
+    }
+
+    .web-development {
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 32vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    .programming-languages {
+        margin: 0 0 46px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 25vw;
+        width: 490px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+
+    .div-database{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 41.5vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+
+    }
+
+    .tools{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 45.5vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
 }
 
 
