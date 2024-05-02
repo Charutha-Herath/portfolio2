@@ -1591,7 +1591,7 @@ li.timeline-item .location {
         position: relative;
         font-family: 'Inter';
         font-weight: 700;
-        font-size: 28px;
+        font-size: 26px;
         color: #FFFFFF;
 
         margin-bottom: 50px;
@@ -1605,7 +1605,7 @@ li.timeline-item .location {
         position: relative;
         font-family: 'Inter';
         font-weight: 700;
-        font-size: 30px;
+        font-size: 22px;
         color: #FFFFFF;
     }
 
@@ -1618,7 +1618,7 @@ li.timeline-item .location {
         position: relative;
         font-family: 'Inter';
         font-weight: 700;
-        font-size: 30px;
+        font-size: 22px;
         color: #FFFFFF;
     }
 
@@ -1630,7 +1630,7 @@ li.timeline-item .location {
         position: relative;
         font-family: 'Inter';
         font-weight: 700;
-        font-size: 30px;
+        font-size: 22px;
         color: #FFFFFF;
 
     }
@@ -1643,9 +1643,215 @@ li.timeline-item .location {
         position: relative;
         font-family: 'Inter';
         font-weight: 700;
-        font-size: 30px;
+        font-size: 22px;
         color: #FFFFFF;
     }
+
+    .icons-8-html-1441,.icons-8-css-1441,.icons-8-bootstrap-1441,.icons-8-react-ajavascript-library-for-building-user-interfaces-961,.icons-8-spring-boot-1441  {
+
+        margin-top: 6px;
+        width: 52px;
+        height: 65px;
+    }
+
+    .my-skills,.container,.container-database,.container-programming,.container-programming{
+        margin-bottom: 30px;
+    }
+
+    .web-development,.programming-languages,.div-database,.tools{
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .sec-skills{
+
+        height: 950px;
+
+    }
+    .my-skills {
+        margin: 0 0 86px 43px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 28vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 26px;
+        color: #FFFFFF;
+    }
+    #education,#experience{
+        width: 200px;
+    }
+
+    .web-development {
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 23vw;
+        width: 250px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+
+    .programming-languages {
+        margin: 0 0 46px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 15vw;
+        width: 280px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+
+    .div-database{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 34vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+
+    }
+
+    .tools{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 39vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    .container{
+        left: 17.5vw;
+        width: 300px;
+    }
+
+    .container-programming{
+        left: 31vw;
+        width: 200px;
+    }
+    .container-database{
+        left: 45vw;
+    }
+    .container-tools{
+        left: 17.5vw;
+        width: 300px;
+    }
+
+
+    .container>div>img,.container-programming>div>img,.container-tools>div>img {
+        width: 40px;
+        aspect-ratio: 1/1
+    }
+
+    .container-database>div>img{
+        width: 50px;
+        aspect-ratio: 1/1
+    }
+
+
+
+    .my-skills,.container,.container-database,.container-programming,.container-programming{
+        margin-bottom: 50px;
+    }
+
+    .icons-8-html-1441,.icons-8-css-1441,.icons-8-bootstrap-1441,.icons-8-react-ajavascript-library-for-building-user-interfaces-961,.icons-8-spring-boot-1441  {
+
+        margin-top: 6px;
+        width: 50px;
+        height: 65px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 375px){
+    .my-skills {
+        margin: 0 0 50px 43px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 28vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+
+    .web-development {
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 23vw;
+        width: 250px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .programming-languages {
+        margin: 0 0 46px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 15vw;
+        width: 280px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .div-database{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 34vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+
+    }
+
+    .tools{
+        margin: 0 0 43px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 39vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .container>div>img,.container-programming>div>img,.container-tools>div>img {
+        width: 30px;
+        aspect-ratio: 1/1
+    }
+
+    .my-skills,.container,.container-database,.container-programming,.container-programming{
+        margin-bottom: 40px;
+    }
+
 }
 
 
