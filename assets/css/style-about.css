@@ -1784,7 +1784,7 @@ li.timeline-item .location {
         margin: 0 0 50px 43px;
         display: inline-block;
         overflow-wrap: break-word;
-        left: 28vw;
+        left: 23.5vw;
         position: relative;
         font-family: 'Inter';
         font-weight: 700;
@@ -1796,7 +1796,7 @@ li.timeline-item .location {
         margin: 0 0 43px 21px;
         display: inline-block;
         overflow-wrap: break-word;
-        left: 23vw;
+        left: 20vw;
         width: 250px;
         position: relative;
         font-family: 'Inter';
@@ -1809,7 +1809,7 @@ li.timeline-item .location {
         margin: 0 0 46px 21px;
         display: inline-block;
         overflow-wrap: break-word;
-        left: 15vw;
+        left: 10vw;
         width: 280px;
         position: relative;
         font-family: 'Inter';
@@ -1822,7 +1822,7 @@ li.timeline-item .location {
         margin: 0 0 43px 21px;
         display: inline-block;
         overflow-wrap: break-word;
-        left: 34vw;
+        left: 31vw;
         position: relative;
         font-family: 'Inter';
         font-weight: 700;
@@ -1835,12 +1835,29 @@ li.timeline-item .location {
         margin: 0 0 43px 21px;
         display: inline-block;
         overflow-wrap: break-word;
-        left: 39vw;
+        left: 36vw;
         position: relative;
         font-family: 'Inter';
         font-weight: 700;
         font-size: 20px;
         color: #FFFFFF;
+    }
+
+    .container{
+        left: 14vw;
+        width: 300px;
+    }
+
+    .container-programming{
+        left: 27vw;
+        width: 200px;
+    }
+    .container-database{
+        left: 43vw;
+    }
+    .container-tools{
+        left: 13vw;
+        width: 300px;
     }
 
     .container>div>img,.container-programming>div>img,.container-tools>div>img {
@@ -1852,6 +1869,87 @@ li.timeline-item .location {
         margin-bottom: 40px;
     }
 
+}
+
+@media screen and (max-width: 325px){
+
+    .sec-skills{
+
+        height: 820px;
+
+    }
+
+    .my-skills{
+        left: 20vw;
+    }
+
+    .web-development {
+        margin: 0 0 30px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 15vw;
+        width: 250px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .programming-languages {
+        margin: 0 0 30px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 5vw;
+        width: 280px;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .div-database{
+        margin: 0 0 30px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 28vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+
+    }
+
+    .tools{
+        margin: 0 0 30px 21px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        left: 34vw;
+        position: relative;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .container{
+        left: 8vw;
+        width: 300px;
+    }
+
+    .container-programming{
+        left: 25vw;
+        width: 200px;
+    }
+    .container-database{
+        left: 41vw;
+    }
+    .container-tools{
+        left: 8vw;
+        width: 300px;
+    }
 }
 
 
