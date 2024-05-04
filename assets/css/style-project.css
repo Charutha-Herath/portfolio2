@@ -457,9 +457,10 @@
         background : #414148;
         position: relative;
         margin-right: 37px;
+        margin-bottom: 0;
         padding: 323px 26px 72px 26px;
-        width: 310px;
-        height: 480px;
+        width: 270px;
+        height: 400px;
         box-sizing: border-box;
     }
 
@@ -477,8 +478,8 @@
         position: relative;
         margin-right: 37px;
         padding: 323px 26px 72px 26px;
-        width: 310px;
-        height: 480px;
+        width: 270px;
+        height: 400px;
         box-sizing: border-box;
     }
 
@@ -496,8 +497,8 @@
         position: relative;
         margin-right: 37px;
         padding: 323px 26px 72px 26px;
-        width: 310px;
-        height: 480px;
+        width: 270px;
+        height: 400px;
         box-sizing: border-box;
         /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.8);
         border-radius: 20px;
@@ -548,18 +549,18 @@
         border: 5px solid #4C9AF6;
 
         position: absolute;
-        left: 0;
-        top: -2px;
-        width: 296px;
-        height: 210px;
+        left: -1px;
+        top: -3px;
+        width: 258px;
+        height: 175px;
         z-index: 100;
         overflow: hidden;
     }
 
     .text{
         position: absolute;
-        top: 220px;
-        left: 15px;
+        top: 165px;
+        left: 18px;
 
     }
     .card-main{
@@ -568,16 +569,16 @@
     }
 
     .card-para{
-        font-size: 20px;
-    }
-
-    .card-italic{
         font-size: 18px;
     }
 
+    .card-italic{
+        font-size: 16px;
+    }
+
     .img-cards{
-        width: 296px;
-        height: 210px;
+        width: 260px;
+        height: 175px;
 
     }
 
