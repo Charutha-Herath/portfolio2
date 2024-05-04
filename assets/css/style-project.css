@@ -168,8 +168,8 @@
     position: relative;
     margin-right: 37px;
     padding: 323px 26px 72px 26px;
-    width: 370px;
-    height: 600px;
+    width: 310px;
+    height: 480px;
     box-sizing: border-box;
 }
 
@@ -187,8 +187,8 @@
     position: relative;
     margin-right: 37px;
     padding: 323px 26px 72px 26px;
-    width: 370px;
-    height: 600px;
+    width: 310px;
+    height: 480px;
     box-sizing: border-box;
 }
 
@@ -259,14 +259,21 @@
     position: absolute;
     left: -9px;
     top: -9px;
-    width: 350px;
-    height: 260px;
+    width: 290px;
+    height: 210px;
     z-index: 100;
     overflow: hidden;
 }
 
-.card-main{
+.text{
+    position: absolute;
+    top: 220px;
+    left: 15px;
 
+}
+.card-main{
+    /*top: -100px;
+    position: relative;*/
 }
 
 .card-para{
