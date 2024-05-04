@@ -431,7 +431,7 @@
 @media screen and (max-width: 576px) {
     .main-div-1 {
         top: 120px;
-        left: 28vw;
+        left: 33vw;
         position: absolute;
         display: grid;
         /*display: flex;
@@ -495,6 +495,7 @@
         border: 3px solid #4C9AF6;
         background-color: #414148;
         position: relative;
+        top: -85px;
         margin-right: 37px;
         padding: 323px 26px 72px 26px;
         width: 270px;
