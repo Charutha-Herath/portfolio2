@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+#mobile-menu{
+    display: none;
+}
+
 #project_head{
     color: white;
     left: 45vw;
@@ -587,7 +591,128 @@
 }
 
 @media screen and (max-width: 425px){
+    #mobile-menu{
+        z-index: 999;
+        display: block;
+        background-color: #333;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
 
+        border-radius: 20px;
+    }
+
+
+    #top-nav{
+        display: flex;
+        flex-direction: row;
+        padding: 11px 11.1px 3px 3px;
+        background-color: #00386C       ;
+        border-radius: 2px;
+        margin-right: 2px;
+        right: 2px;
+        width: 100vw;
+        height: 10vh;
+
+
+    }
+
+    #top-nav>div{
+        margin-left: 10px;
+    }
+
+    #nav-bar-mobile>.top-nav{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #mobile-home{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-about{
+        margin: 0 0 25px 3.7px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-project{
+        margin: 0 0 27px 3.7px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-blog{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-assignment{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-contact{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .Main-div .nav-bar {
+        display: none;
+
+    }
+
+    #project_head{
+        color: white;
+        left: 26vw;
+        top: 10px;
+        font-size: 40px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 17vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: fit-content;
+        height: 1500px;
+        box-sizing: border-box;
+    }
 
 }
 
