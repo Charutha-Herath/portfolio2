@@ -716,5 +716,29 @@
 
 }
 
+@media screen and (max-width: 360px){
+    #project_head{
+        color: white;
+        left: 23vw;
+        top: 10px;
+        font-size: 40px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 10vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: fit-content;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+}
+
+
+
 
 
