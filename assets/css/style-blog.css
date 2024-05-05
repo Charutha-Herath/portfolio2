@@ -832,7 +832,7 @@
 @media screen and (max-width: 325px){
     #blog_head{
         color: white;
-        left: 25vw;
+        left: 29vw;
         top: 10px;
         font-size: 36px;
         position: absolute;
@@ -840,7 +840,7 @@
 
     .main-div-1 {
         top: 120px;
-        left: 10vw;
+        left: 6vw;
         position: absolute;
         display: grid;
         /*display: flex;
@@ -854,7 +854,7 @@
 @media screen and (max-width: 320px){
     #blog_head{
         color: white;
-        left: 21vw;
+        left: 27vw;
         top: 10px;
         font-size: 36px;
         position: absolute;
