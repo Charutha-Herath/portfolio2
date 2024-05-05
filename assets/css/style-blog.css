@@ -350,7 +350,7 @@
 
     #blog_head{
         color: white;
-        left: 42vw;
+        left: 45vw;
         top: 10px;
         font-size: 42px;
         position: absolute;
@@ -755,9 +755,9 @@
 
     }
 
-    #project_head{
+    #blog_head{
         color: white;
-        left: 26vw;
+        left: 32vw;
         top: 10px;
         font-size: 40px;
         position: absolute;
@@ -775,4 +775,100 @@
         box-sizing: border-box;
     }
 
+}
+
+@media screen and (max-width: 375px){
+    #blog_head{
+        color: white;
+        left: 35vw;
+        top: 10px;
+        font-size: 36px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 16vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+
+
+
+    #top-nav>div{
+        margin-left: 2px;
+    }
+
+
+}
+
+@media screen and (max-width: 360px){
+    #blog_head{
+        color: white;
+        left: 30vw;
+        top: 10px;
+        font-size: 36px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 10vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 325px){
+    #blog_head{
+        color: white;
+        left: 25vw;
+        top: 10px;
+        font-size: 36px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 10vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #blog_head{
+        color: white;
+        left: 21vw;
+        top: 10px;
+        font-size: 36px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 5vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
 }

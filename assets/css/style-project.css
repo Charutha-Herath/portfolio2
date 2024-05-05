@@ -808,6 +808,29 @@
 
 }
 
+@media screen and (max-width: 360px){
+
+    #project_head{
+        color: white;
+        left: 30vw;
+        top: 10px;
+        font-size: 36px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 10vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+}
+
 @media screen and (max-width: 325px){
     #project_head{
         color: white;
