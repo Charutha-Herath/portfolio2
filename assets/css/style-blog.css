@@ -830,6 +830,7 @@
 }
 
 @media screen and (max-width: 325px){
+
     #blog_head{
         color: white;
         left: 29vw;
@@ -852,6 +853,7 @@
 }
 
 @media screen and (max-width: 320px){
+
     #blog_head{
         color: white;
         left: 27vw;
