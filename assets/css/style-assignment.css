@@ -146,7 +146,7 @@
 
 #assignment_head{
     color: white;
-    left: 47vw;
+    left: 42vw;
     top: 10px;
     font-size: 48px;
     position: absolute;
@@ -308,4 +308,577 @@
     margin: auto;
     position: absolute;
 
+}
+
+@media screen and (max-width: 1234px){
+    .div-1{
+        margin-bottom: 23px;
+    }
+    .Main-div{
+        width: 100vw;
+        height: 1700px;
+
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 41vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: fit-content;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-div-1 {
+        top: 120px;
+        left: 35vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: fit-content;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+
+    #assignment_head{
+        color: white;
+        left: 38vw;
+        top: 10px;
+        font-size: 42px;
+        position: absolute;
+    }
+
+
+
+
+
+    .Main-div .nav-bar {
+
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        /*height: 90;*/
+        border: 1px solid #1E1E1E;
+        background: #00386C;
+        position: fixed;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3px 1px 6px 1px;
+        box-sizing: border-box;
+
+    }
+
+
+
+    .Main-div .icon-home {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 1px 1px 1px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+
+    }
+
+    .Main-div .icon-about {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 1px 1px 1px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .Main-div .icon-project {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 1px 1px 1px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .Main-div .icon-blog {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 1px 1px 1px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+
+    .Main-div .icon-assignment {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+        margin: 0 1px 1px 1px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .Main-div .icon-contact {
+        background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+
+        margin: 0 1px 1px 1px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main-div-1 {
+        top: 120px;
+        left: 33vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: fit-content;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+
+    #assignment_head{
+        color: white;
+        left: 35vw;
+        top: 10px;
+        font-size: 40px;
+        position: absolute;
+    }
+
+
+    .div-1{
+        border-radius: 50px;
+        border: 3px solid #4C9AF6;
+        /*background: rgba(76, 76, 76, 0.6);*/
+        background : #414148;
+        position: relative;
+        margin-right: 37px;
+        margin-bottom: 0;
+        padding: 323px 26px 72px 26px;
+        width: 270px;
+        height: 400px;
+        box-sizing: border-box;
+    }
+
+    .para-1 {
+        font-family: 'Inter';
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1.333;
+    }
+
+    .div-2{
+        border-radius: 50px;
+        border: 3px solid #4C9AF6;
+        background-color: #414148;
+        position: relative;
+        margin-right: 37px;
+        padding: 323px 26px 72px 26px;
+        width: 270px;
+        height: 400px;
+        box-sizing: border-box;
+    }
+
+    .para-2 {
+        font-family: 'Inter';
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1.333;
+    }
+
+    .div-3 {
+        border-radius: 50px;
+        border: 3px solid #4C9AF6;
+        background-color: #414148;
+        position: relative;
+        top: -85px;
+        margin-right: 37px;
+        padding: 323px 26px 72px 26px;
+        width: 270px;
+        height: 400px;
+        box-sizing: border-box;
+        /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 256px 0 263px 1.1px;
+        width: 370px;
+        box-sizing: border-box;*/
+    }
+
+    .rectangle-25 {
+        border-radius: 50px;
+        border: 5px solid #4C9AF6;
+        background: rgba(76, 76, 76, 0.6);
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        translate: -50% 0;
+        width: 370px;
+        height: 558px;
+    }
+
+    .rectangle-101 {
+        border-radius: 20px;
+        background: #4C9AF6;
+        position: absolute;
+        left: 50%;
+        top: 249px;
+        translate: -50% 0;
+        width: 221.8px;
+        height: 60px;
+    }
+
+    .view-more {
+        position: relative;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 32px;
+        color: #050505;
+    }
+
+    .rectangle-24 {
+
+        border-radius: 50px 50px 0 0;
+        border: 5px solid #4C9AF6;
+
+        position: absolute;
+        left: -1px;
+        top: -3px;
+        width: 258px;
+        height: 175px;
+        z-index: 100;
+        overflow: hidden;
+    }
+
+    .text{
+        position: absolute;
+        top: 165px;
+        left: 18px;
+
+    }
+    .card-main{
+        /*top: -100px;
+        position: relative;*/
+    }
+
+    .card-para{
+        font-size: 18px;
+    }
+
+    .card-italic{
+        font-size: 16px;
+    }
+
+    .img-cards{
+        width: 260px;
+        height: 175px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 425px){
+    /*#div-mobile-home,#div-mobile-about,#div-mobile-project{
+        margin-left: 2px;
+    }*/
+    .div-1{
+        margin-right: 0;
+        /*border-radius: 50px;
+        border: 3px solid #4C9AF6;
+        !*background: rgba(76, 76, 76, 0.6);*!
+        background : #414148;
+        position: relative;
+        margin-right: 0;
+        margin-bottom: 0;
+        padding: 323px 26px 72px 26px;
+        width: 270px;
+        height: 400px;
+        box-sizing: border-box;*/
+    }
+
+
+
+    .div-2{
+
+        margin-right: 0;
+        /*border-radius: 50px;
+        border: 3px solid #4C9AF6;
+        background-color: #414148;
+        position: relative;
+        margin-right: 0;
+        padding: 323px 26px 72px 26px;
+        width: 270px;
+        height: 400px;
+        box-sizing: border-box;*/
+    }
+
+
+
+    .div-3 {
+        margin-right: 0;
+        /*border-radius: 50px;
+        border: 3px solid #4C9AF6;
+        background-color: #414148;
+        position: relative;
+        top: -85px;
+        margin-right: 0;
+        padding: 323px 26px 72px 26px;
+        width: 270px;
+        height: 400px;
+        box-sizing: border-box;*/
+        /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 256px 0 263px 1.1px;
+        width: 370px;
+        box-sizing: border-box;*/
+    }
+    #mobile-menu{
+        z-index: 999;
+        display: block;
+        background-color: #333;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+        border-radius: 20px;
+    }
+
+
+    #top-nav{
+        display: flex;
+        flex-direction: row;
+        padding: 11px 11.1px 3px 3px;
+        background-color: #00386C       ;
+        border-radius: 2px;
+        margin-right: 2px;
+        right: 2px;
+        width: 100vw;
+        height: 10vh;
+
+
+    }
+
+    #top-nav>div{
+        margin-left: 2px;
+
+    }
+    #div-mobile-contact{
+
+    }
+
+    #nav-bar-mobile>.top-nav{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #mobile-home{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-about{
+        margin: 0 0 25px 3.7px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-project{
+        margin: 0 0 27px 3.7px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-blog{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-assignment{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-contact{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .Main-div .nav-bar {
+        display: none;
+
+    }
+
+    #assignment_head{
+        color: white;
+        left: 20vw;
+        top: 10px;
+        font-size: 40px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 20vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: fit-content;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    #assignment_head{
+        color: white;
+        left: 22vw;
+        top: 10px;
+        font-size: 36px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 16vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+
+
+
+    #top-nav>div{
+        margin-left: 2px;
+    }
+
+
+}
+
+/*@media screen and (max-width: 432px){
+    #assignment_head{
+
+        font-size: 32px;
+
+    }
+}*/
+
+@media screen and (max-width: 360px){
+    #assignment_head{
+        color: white;
+        left: 17vw;
+        top: 10px;
+        font-size: 34px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 10vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (max-width: 325px){
+
+    #assignment_head{
+        color: white;
+        left: 16vw;
+        top: 10px;
+        font-size: 32px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 6vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    #assignment_head{
+        color: white;
+        left: 15vw;
+        top: 10px;
+        font-size: 32px;
+        position: absolute;
+    }
+
+    .main-div-1 {
+        top: 120px;
+        left: 5vw;
+        position: absolute;
+        display: grid;
+        /*display: flex;
+        flex-direction: row;*/
+        width: 280px;
+        height: 1500px;
+        box-sizing: border-box;
+    }
 }
