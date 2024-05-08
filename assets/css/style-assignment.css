@@ -848,6 +848,7 @@
     }
 
     .main-div-1 {
+
         top: 120px;
         left: 6vw;
         position: absolute;
@@ -857,6 +858,7 @@
         width: 280px;
         height: 1500px;
         box-sizing: border-box;
+
     }
 }
 
