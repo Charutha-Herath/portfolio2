@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="height=device-height,width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="view    port" content="height=device-height,width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../assets/normalize.css">
     <link rel="stylesheet" href="../assets/css/style-contact.css">
@@ -61,12 +61,47 @@
             </a>
         </nav>
 
-        <p style="color: #0074D9">
-            Contact
-        </p>
+
+
     </div>
 
+    <h1 id="contact_head" >Contact</h1>
 
+    <div id="main-div">
+        <div id="main-para">
+            <h1 id="h1-get-in">Get in touch</h1>
+            <p id="para-fill-in">Fill in the form to start a conversation</p><br><br>
+            <img class="icons" src="../assets/icon/icons8-user-96%20(1).png"> <span class="span">&nbsp;&nbsp;Charutha Herath</span> <br><br>
+            <img class="icons" src="../assets/icon/icons8-location-100.png"> <span class="span">&nbsp;&nbsp;Rathnapura, Sri Lanka</span><br><br>
+            <img class="icons" src="../assets/icon/icons8-mail-100%20(1).png"> <span class="span">&nbsp;&nbsp;charuthaherath456@gmail.com</span>
+            <br><br>
+
+            <div id="div-icons-3">
+                <a href="https://github.com/Charutha-Herath" target="_blank"><img src="../assets/icon/icons8-github-144.png" id="icon-git"></a> &nbsp;&nbsp;
+                <a href="https://www.facebook.com/share/fVQ6U2JsuRj6NcCC/?mibextid=qi2Omg" target="_blank"><img src="../assets/icon/icons8-facebook-144.png" id="icon-fb"></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/charutha-herath-a614662a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="../assets/icon/icons8-linkedin-circled-144.png" id="icon-linkedIn"></a>
+            </div>
+        </div>
+        <div class="vertical-line"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div id="fields"  >
+
+            <div class="container" style="">
+                <!-- <h2>Contact Me</h2>-->
+                <form action="/submit_contact" method="post">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required> <br><br>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea><br><br>
+
+                    <input type="submit" value="Submit" id="btnSubmit">
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
