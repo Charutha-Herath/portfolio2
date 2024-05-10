@@ -22,7 +22,7 @@
     border-radius: 20px;
     border: 1px solid #1E1E1E;
     background: #00386C;
-    position: relative;
+    position: fixed;
     margin-right: 90px;
     display: flex;
     flex-direction: column;
