@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+#mobile-menu{
+    display: none;
+}
+
 .Main-div .content {
     margin: 0 58px 13px 44px;
     display: flex;
@@ -420,5 +424,198 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 425px){
+    .Main-div .nav-bar{
+        display: none;
+    }
 
+    #contact_head{
+
+        left: 36vw;
+
+        font-size: 32px;
+
+    }
+
+    #main-div {
+        top: 100px;
+        left: 20vw;
+
+    }
+
+    #fullName,#email,#message{
+        width: 250px;
+
+    }
+
+    #h1-get-in{
+        font-size: 24px;
+    }
+    #para-fill-in{
+        font-size: 15px;
+    }
+
+    #h1-get-in,#para-fill-in{
+        left: -6vw;
+        position: relative;
+        margin: 6px 0 4px 0;
+    }
+
+    #mobile-menu{
+        z-index: 999;
+        display: block;
+        background-color: #333;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+        border-radius: 20px;
+    }
+
+
+    #top-nav{
+        display: flex;
+        flex-direction: row;
+        padding: 11px 11.1px 3px 3px;
+        background-color: #00386C       ;
+        border-radius: 2px;
+        margin-right: 2px;
+        right: 2px;
+        width: 100vw;
+        height: 10vh;
+
+
+    }
+
+    #top-nav>div{
+        margin-left: 2px;
+
+    }
+    #div-mobile-contact{
+
+    }
+
+    #nav-bar-mobile>.top-nav{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #mobile-home{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-about{
+        margin: 0 0 25px 3.7px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-project{
+        margin: 0 0 27px 3.7px;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-blog{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-assignment{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #mobile-contact{
+        margin: 0 0.3px 20px 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .Main-div .nav-bar {
+        display: none;
+
+    }
+
+
+}
+
+@media screen and (max-width: 375px){
+    #main-div {
+        top: 100px;
+        left: 17vw;
+
+    }
+
+    #contact_head{
+
+        left: 33vw;
+
+        font-size: 32px;
+
+    }
+}
+
+@media screen and (max-width: 360px){
+    #main-div {
+        top: 100px;
+        left: 5vw;
+
+    }
+
+    #contact_head{
+
+        left: 30vw;
+
+        font-size: 32px;
+
+    }
+
+    #fullName,#email,#message{
+        width: 250px;
+
+    }
+
+    #h1-get-in{
+        font-size: 24px;
+    }
+    #para-fill-in{
+        font-size: 15px;
+    }
+
+    #h1-get-in,#para-fill-in{
+        left: 1vw;
+        position: relative;
+        margin: 6px 0 4px 0;
+    }
 }
