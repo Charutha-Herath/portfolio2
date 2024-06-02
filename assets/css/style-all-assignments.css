@@ -8,3 +8,138 @@
     height: 100vh;
     box-sizing: border-box;
 }
+
+.Main-div .content {
+    margin: 0 58px 13px 44px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.Main-div .nav-bar {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px solid #1E1E1E;
+    background: #00386C;
+    position: fixed;
+    margin-right: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 6.3px 23px 6.3px;
+    box-sizing: border-box;
+}
+.Main-div .icon-home {
+    background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+    margin: 0 11.7px 0 13.7px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+
+    /*width: 48px;
+    aspect-ratio: 1/1;
+    background-image: url('assets/image/icons8-user-96 (1).png'); !* Replace 'image.jpg' with the path to your image *!
+    background-size: cover; !* Ensure the image covers the button *!
+    background-repeat: no-repeat; !* Prevent image from repeating *!
+    border: none; !* Remove default button border *!
+    outline: none; !* Remove default button outline *!
+    cursor: pointer; !* Set cursor to pointer on hover *!*/
+}
+
+.Main-div .icon-about {
+    background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+    margin: 0 11.7px 1px 13.7px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.Main-div .icon-project {
+    background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+    margin: 0 11.7px 4px 13.7px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+.Main-div .icon-blog {
+    background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+    margin: 0 11.7px 4px 13.7px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.Main-div .icon-assignment {
+    background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+    margin: 0 11.7px 4px 13.7px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+.Main-div .icon-contact {
+    background: url("assets/icon/icons8-facebook-144.png") 50% / cover no-repeat;
+    margin: 0 13.7px 4px 11.7px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.Main-div .home {
+    margin: 0 0.3px 20px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.Main-div .about {
+    margin: 0 0 25px 3.7px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.Main-div .project {
+    margin: 0 0 27px 3.7px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.Main-div .blog {
+    margin: 0 0.3px 20px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.Main-div .assignment {
+    margin: 0 0 12px 2.5px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.Main-div .contact {
+    margin: 0 11.8px;
+    align-self: flex-end;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+#mobile-menu{
+    display: none;
+}
