@@ -5,13 +5,16 @@
     <meta name="viewport" content="height=device-height,width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <title>about</title>
     <link rel="stylesheet" href="../assets/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <link rel="stylesheet" href="../assets/css/style-about.css">
 </head>
 <body>
 
-<div class="Main-div">
-    <div class="content">
-        <nav class="nav-bar">
+<div class="Main-div" >
+    <div class="content" >
+        <nav class="nav-bar" >
             <!--<button class="icon-home">-->
                 <a href="../index.html" target="_self" ><img src="../assets/icon/nav/home.png" style="width: 40px; aspect-ratio: 1/1 ;"></a>
             <!--</button>-->
@@ -66,22 +69,22 @@
             About
         </h1>
 
-        <div>
+        <div >
             <img src="../assets/image/me-inno-pic.jpg" id="img-me-inno" > <!--i need this image fit to right in the display-->
 
         </div>
-        <p style="color: white" id="para-about-me">
+        <p style="color: white" id="para-about-me" data-aos="zoom-out">
             Hey there! I'm Charutha Herath, currently pursuing a Bachelor of Information Technology at the University of Colombo School of Computing (UCSC) and learning at IJSE - Institute of Software Engineering. I've got a solid grasp of Java and Python, and I love tinkering with web development to create cool digital stuff. Besides coding, I'm all about leading and communicating effectively. Being a tech enthusiast, I'm always excited about the latest technologies and innovations. Join me on this exciting journey where my dedication to excellence, coupled with a blend of technical and interpersonal skills, creates a unique approach to problem-solving and innovation. Let's create something amazing together!
 
         </p>
-        <p style="color: white" id="about-detail-1">
+        <p style="color: white" id="about-detail-1" data-aos="zoom-out">
             First Name : Charutha<br>
             Last Name  : Hearth<br>
             Country  &nbsp;&nbsp;&nbsp;&nbsp;: Sri Lanka
 
         </p>
 
-        <p style="color: white" id="about-detail-2">
+        <p style="color: white" id="about-detail-2" data-aos="zoom-out">
             Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; : charuthaherath456@gmail.com <br>
             Status  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; : Undergraduate <br>
              Languages : English, Sinhala
@@ -168,7 +171,7 @@
     </div>
 
     <div id="mobile-menu">
-        <div id="top-nav">
+        <div id="top-nav" >
             <!--<a class="active icon home" href="#home">Home</a>-->
 
             <div id="div-mobile-home">
@@ -243,7 +246,9 @@
 <section id="sec-edu-skill" >
     <div class="timelines" style="color: white; position: revert" >
 
-        <section class="timeline-education">
+        <section class="timeline-education"  data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500">
             <h2 class="timeline-title" id="education">Education</h2>
             <ul class="timeline-items" id="timeline-items">
                 <li class="timeline-item">
@@ -280,7 +285,9 @@
             </ul>
         </section>
 
-        <section class="timeline-experience">
+        <section class="timeline-experience"  data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500">
             <h2 class="timeline-title" id="experience">Experience</h2>
             <ul class="timeline-items" id="timeline-items-zyntech">
                 <li class="timeline-item">
@@ -318,7 +325,7 @@
 
 <section class="sec-skills">
     <section style="position: relative">
-            <div class="my-skills">
+            <div class="my-skills" >
                 My Skills
             </div>
             <br>
@@ -393,6 +400,9 @@
             </div>
     </section>
 </section>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
