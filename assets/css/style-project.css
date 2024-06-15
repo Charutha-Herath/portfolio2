@@ -197,6 +197,11 @@
     box-sizing: border-box;
 }
 
+.div-1:hover,.div-2:hover{
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 5px;
+}
+
 .para-2 {
     font-family: 'Inter';
     font-weight: 200;
@@ -485,6 +490,10 @@
         width: 270px;
         height: 400px;
         box-sizing: border-box;
+
+    }
+    .div-2:hover{
+
     }
 
     .para-2 {
