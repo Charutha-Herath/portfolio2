@@ -163,6 +163,11 @@
     box-sizing: border-box;
 }
 
+.div-1:hover,.div-2:hover,.div-3:hover{
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 5px;
+}
+
 .div-1{
     border-radius: 50px;
     border: 3px solid #4C9AF6;
@@ -452,6 +457,7 @@
     }
 
 
+
     .div-1{
         border-radius: 50px;
         border: 3px solid #4C9AF6;
@@ -513,6 +519,8 @@
         width: 370px;
         box-sizing: border-box;*/
     }
+
+
 
     .rectangle-25 {
         border-radius: 50px;
